@@ -2,9 +2,9 @@ package com.driver;
 
 public class Vehicle {
 
-    public String name;
-    public int currentSpeed;
-    protected int currentDirection;
+    private String name;
+  private  int currentSpeed;
+  private  int currentDirection;
 
     public Vehicle(String name) {
   this.name = name;
